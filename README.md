@@ -34,7 +34,7 @@ Although the TMC2209 X-driver communicates (tested with 'M122' - TMC Debugging M
 
 - During 1 month of operation, it sometimes happened after the printing restart that the mother board got to a state where the driver did not remember its settings and had to be reset manually. After the board reset it worked normally again.
 
-- Also, it sometimes happened to me (but not during the printing) that the board seemed to react to 'an ESD event'. When touching the grounded frame of the printer, the motors (or one of the motors) jerked suddenly, and with the subsequent 'home' command the motor moved away in unpredictable direction and speed, also the board did not respond to the limit switches (Stall Guard function in TMC2209).
+- Also, it sometimes happened to me (but not during the printing) that the board seemed to react to 'an ESD event'. When touching the grounded frame of the printer, the motors (or one of the motors) jerked suddenly, and with the subsequent 'home' command the motor moved away in unpredictable direction and speed, also the board did not respond to the limit switches (StallGuard function in TMC2209).
 
 - Subsequently, I read the content of the TMC's registers ('M122' Marlin's command) and I found that drivers were set to their defaut factory settings. This proves the fact that an internal reset has occurred in the TMC. Only after the board reset the firmware restored the correct registry settings.
 
