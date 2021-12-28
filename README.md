@@ -22,12 +22,12 @@ https://github.com/bigtreetech/BIGTREETECH-SKR-E3-Turbo
 
 One Trinamic driver chips has stopped working. It communicates (with processor) but does not source the stepper motor.  
 
-I bought two BTT SKR-E3-TURBO control boards at https://www.biqu.equipment/ eshop, about 2 months ago. I used one of them in my 3D printer (Anet A8 Plus). But today, after about a month of normal use, the X-axis __driver has stopped working__. It occured suddenly
+I bought two BTT SKR-E3-TURBO control boards at https://www.biqu.equipment/ eshop, about 2 months ago. I used one of them in my 3D printer (Anet A8 Plus). But today, after about a month of normal use, the X-axis __driver has stopped working__. It occured suddenly ...
 
 ***
 > __Fault description__  
 
-Although the XC2209 X-driver communicates (tested with 'M122' - TMC Debugging Marlin's code), but the motor does not even move. Rewiring or switching to another stepper motor did not help. Remapping in Marlin FW to another driver  works well (TMC2209 dedicated to E1 e.g.), this confirms <code>the problem is not software, the problem is the broken TMC2209 chip</code>.  
+Although the TMC2209 X-driver communicates (tested with 'M122' - TMC Debugging Marlin's code), but the motor does not even move. Rewiring or switching to another stepper motor did not help. Remapping in Marlin FW to another driver  works well (TMC2209 dedicated to E1 e.g.), this confirms <code>the problem is not software, the problem is the broken TMC2209 chip</code>.  
 
 ***
 > __First hints__  
