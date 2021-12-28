@@ -8,6 +8,9 @@ At first: I sincerely hope the inconveniences described here is not a systematic
 - Does it mean "product discontinued" ? Quite soon ...
 - Maybe it indicates something ...
 
+So at least link to BTT's github, maybe still it works:  
+https://github.com/bigtreetech/BIGTREETECH-SKR-E3-Turbo  
+
   
 > __What's a problem?__  
 <code>X-stepper driver does not work.</code>  <br>  
