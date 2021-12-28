@@ -15,7 +15,7 @@ I sincerely hope the inconveniences described here is not a systematic problem, 
   <img src="https://github.com/lubond32/my_BTT_SKR-E3-Turbo_problems/blob/main/picture.png" alt="Flowers" style="width:auto;">
 </picture>
 -->
-<img scr="https://github.com/lubond32/my_BTT_SKR-E3-Turbo_problems/blob/main/picture.png" width="400">
+<img scr="https://github.com/lubond32/my_BTT_SKR-E3-Turbo_problems/blob/main/picture.png" width="400" />
 
 
 
