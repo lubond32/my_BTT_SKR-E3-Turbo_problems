@@ -1,6 +1,6 @@
-### Here is described fatal problem with my new 3D printer board
+# Problem with Bigtreetech controll board
 
-Boadr: <code>BTT_SKR-E3-Turbo</code>
+Board: <code>BTT_SKR-E3-Turbo</code>
 
 A problem:
 TMC2209 reserved for X axis has stopped working.
