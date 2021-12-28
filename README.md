@@ -30,7 +30,7 @@ I bought two BTT SKR-E3-TURBO control boards at https://www.biqu.equipment/ esho
 Although the TMC2209 X-driver communicates (tested with 'M122' - TMC Debugging Marlin's code), but the motor does not even move. Rewiring or switching to another stepper motor did not help. Remapping in Marlin FW to another driver  works well (TMC2209 dedicated to E1 e.g.), this confirms <code>the problem is not software, the problem is the broken TMC2209 chip</code>.  
 
 ***
-> __First hints__  
+> __First symptoms __  
 
 - During 1 month of operation, it often happened after the printing restart that the mother board got to a state where the driver did not remember its settings and had to be reset manually. After the board reset it worked normally again.
 
