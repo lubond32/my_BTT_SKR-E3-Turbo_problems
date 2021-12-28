@@ -8,7 +8,7 @@ I sincerely hope the inconveniences described here is not a systematic problem, 
 - Wow - 'Page not found' !
 - Does it mean "product discontinued" ? Quite soon ...
 - Maybe it indicates something ...
-<!-->
+<!--
 <picture>
   <source media="(min-width:650px)" srcset="https://github.com/lubond32/my_BTT_SKR-E3-Turbo_problems/blob/main/picture.png">
   <source media="(min-width:465px)" srcset="https://github.com/lubond32/my_BTT_SKR-E3-Turbo_problems/blob/main/picture.png">
