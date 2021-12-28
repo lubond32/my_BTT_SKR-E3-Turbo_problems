@@ -10,7 +10,7 @@ I sincerely hope the inconveniences described here is not a systematic problem, 
 - Maybe it indicates something ...
 
 <picture>
-  <img src="https://github.com/lubond32/my_BTT_SKR-E3-Turbo_problems/blob/main/picture.png" alt="Flowers" style="width:auto;">
+  <img src="https://github.com/lubond32/my_BTT_SKR-E3-Turbo_problems/blob/main/picture.png" alt="board" style="width:300;">
 </picture>
 
 
