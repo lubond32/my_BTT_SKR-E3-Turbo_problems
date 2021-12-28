@@ -9,6 +9,15 @@ At first: I sincerely hope the inconveniences described here is not a systematic
 - Does it mean "product discontinued" ? Quite soon ...
 - Maybe it indicates something ...
 
+<picture>
+  <source media="(min-width:650px)" srcset="https://github.com/lubond32/my_BTT_SKR-E3-Turbo_problems/blob/main/picture.png">
+  <source media="(min-width:465px)" srcset="https://github.com/lubond32/my_BTT_SKR-E3-Turbo_problems/blob/main/picture.png">
+  <img src="https://github.com/lubond32/my_BTT_SKR-E3-Turbo_problems/blob/main/picture.png" alt="Flowers" style="width:auto;">
+</picture>
+
+
+
+
 So at least link to BTT's github, maybe still it works:  
 https://github.com/bigtreetech/BIGTREETECH-SKR-E3-Turbo  
 
