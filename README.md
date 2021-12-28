@@ -9,8 +9,9 @@ I sincerely hope the inconveniences described here is not a systematic problem, 
 - Does it mean "product discontinued" ? Quite soon ...
 - Maybe it indicates something ...
 
-<img scr="https://github.com/lubond32/my_BTT_SKR-E3-Turbo_problems/blob/main/picture.png" width="300" height="200" />
-
+<picture>
+  <img src="https://github.com/lubond32/my_BTT_SKR-E3-Turbo_problems/blob/main/picture.png" alt="Flowers" style="width:auto;">
+</picture>
 
 
 So at least link to BTT's github, maybe still it works:  
