@@ -1,3 +1,4 @@
+
 At first: I sincerely hope the inconveniences described here is not a systematic problem, but just a random manufacturing failure.  Perhaps ...
 
 > __Incriminated controll board__  
