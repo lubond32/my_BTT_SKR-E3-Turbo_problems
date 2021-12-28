@@ -1,26 +1,41 @@
-### __Incriminated controll board__
+At first: I sincerely hope the inconveniences described here is not a systematic problem, but just a random manufacturing failure.  Perhaps ...
 
-Board type: <code>BTT_SKR-E3-Turbo</code>  
-product link 
-<a href="https://www.biqu.equipment/products/btt-skr-v1-4-skr-v1-4-turbo-32-bit-control-board-with-tft35-v3-0-e3-v3-0-screen-with-tmc2208-tmc2209-driver-board?_pos=1&_psq=SKR-E3-Turbo&_ss=e&_v=1.0&variant=31917893124194">here</a>
+> __Incriminated controll board__  
+<code>BTT_SKR-E3-Turbo</code>, product link 
+<a href="https://www.biqu.equipment/products/btt-skr-v1-4-skr-v1-4-turbo-32-bit-control-board-with-tft35-v3-0-e3-v3-0-screen-with-tmc2208-tmc2209-driver-board?_pos=1&_psq=SKR-E3-Turbo&_ss=e&_v=1.0&variant=31917893124194">was here</a>  
 
+- Wow - 'Page not found' !
+- Does it mean "product discontinued" ? Quite soon ...
+- Maybe it indicates something ...
+
+  
 > __What's a problem?__  
-<code>One of TMC2209 driver chips has stopped working.</code>
+<code>X-stepper driver does not work.</code>  <br>  
 
-About 2 months ago I bought 2 pieces of BTT SKR-E3-TURBO control boards through your e-shop. I used one of them in my 3D printer (Anet A8 Plus). But today, after about a month of normal use, the X-axis driver has stopped working.
+One Trinamic driver chips has stopped working. It communicates (with processor) but does not source the stepper motor.  
 
-Fault description:
-Although the XC2209 X-driver communicates (tested with 'M122' - TMC Debugging Marlin's code), but the motor does not even move. Rewiring or switching to another stepper motor did not help. Remapping in Marlin FW to another driver  works well (TMC2209 dedicated to E1 e.g.), this confirms that the problem is not software but it is a problem of the TMC2209 chip.
+I bought two BTT SKR-E3-TURBO control boards at https://www.biqu.equipment/ eshop, about 2 months ago. I used one of them in my 3D printer (Anet A8 Plus). But today, after about a month of normal use, the X-axis __driver has stopped working__. It occured suddenly, after 
 
-My additional experience:
-During 1 month of operation, it often happened to me that after the printing restart, the mother board got to a state where the driver did not remember its settings and had to be reset manually, then the board worked normally again.
+> __Fault description__  
 
-It also sometimes happened to me (not during the printing) that the board seemed to react to 'an ESD event'. When touching the grounded frame of the printer, the motors (or one of the motors) jerked suddenly, and with the subsequent 'home' command the motor moved out in unpredictable direction and speed, altso the board did not respond to the limit switches (Stall Guard function in TMC2209). Subsequently, I read the content of the TMC's registers ('M122' Marlin's command) and I found that drivers were set to their defaut factory settings. This proves the fact that an internal reset has occurred in the TMC. Only after the master reset the firmware restored the correct registry settings.
+Although the XC2209 X-driver communicates (tested with 'M122' - TMC Debugging Marlin's code), but the motor does not even move. Rewiring or switching to another stepper motor did not help. Remapping in Marlin FW to another driver  works well (TMC2209 dedicated to E1 e.g.), this confirms that <code>the problem is not software, it is problem of the TMC2209 chip</code>.
 
-I note that I am a professional electrical engineer, I have been designing similar control boards for many years. I strictly follow all the principles of working with ESD sensitive devices.
+> __The first hints__  
 
-Solution:
-Can you please advise me what can be done with that broken board? Can you repair or replace the defective board under warranty?
+- During 1 month of operation, it often happened after the printing restart that the mother board got to a state where the driver did not remember its settings and had to be reset manually. After the board reset it worked normally again.
+
+- Also, it sometimes happened to me (but not during the printing) that the board seemed to react to 'an ESD event'. When touching the grounded frame of the printer, the motors (or one of the motors) jerked suddenly, and with the subsequent 'home' command the motor moved out in unpredictable direction and speed, altso the board did not respond to the limit switches (Stall Guard function in TMC2209).
+
+- Subsequently, I read the content of the TMC's registers ('M122' Marlin's command) and I found that drivers were set to their defaut factory settings. This proves the fact that an internal reset has occurred in the TMC. Only after the board reset the firmware restored the correct registry settings.
+
+> NOTE  
+I am a professional electrical engineer, I have been designing similar control boards for many years. Of course I strictly follow all principles of working with ESD sensitive devices.
+
+So  what now?
+
+> __Possible solutions__  
+
+Dear BQIQU EQUIPMNETS, Can you please advise to me what can be done with that broken board? Can you repair or replace the defective board under warranty?
 
 Unfortunately, the TMC2209-LA stand-alone circuits are not available worldwide at this time, otherwise I could be able to replace broken chip myself.
 
