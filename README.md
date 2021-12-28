@@ -1,9 +1,11 @@
-# Problem with Bigtreetech controll board
+### __Incriminated controll board__
 
-Board: <code>BTT_SKR-E3-Turbo</code>
+Board type: <code>BTT_SKR-E3-Turbo</code>  
+product link 
+<a href="https://www.biqu.equipment/products/btt-skr-v1-4-skr-v1-4-turbo-32-bit-control-board-with-tft35-v3-0-e3-v3-0-screen-with-tmc2208-tmc2209-driver-board?_pos=1&_psq=SKR-E3-Turbo&_ss=e&_v=1.0&variant=31917893124194">here</a>
 
-A problem:
-TMC2209 reserved for X axis has stopped working.
+> __What's a problem?__  
+<code>One of TMC2209 driver chips has stopped working.</code>
 
 About 2 months ago I bought 2 pieces of BTT SKR-E3-TURBO control boards through your e-shop. I used one of them in my 3D printer (Anet A8 Plus). But today, after about a month of normal use, the X-axis driver has stopped working.
 
